@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:wght@300;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:wght@300;600&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  font-size: 25px;
+  color: orange;
+}
+
+
+header {
+  background: linear-gradient(to left, white, #fff1cd);
+  height: 85px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Istok Web;
+  position: relative;
+}
+
+.menu-header{
+  padding-right: 5%;
+}
+.menu-header td {
+  padding: 35px;
+  font-size: 20px;
+}
+.logo-header {
+  font-style: italic;
+  font-size: 25px;
+  font-family: Josefin Sans;
+  padding: 20px;
+  padding-left: 100px;
+}
+
+.contacts-container {
+  display: flex;
+  flex-direction: column;
+ 
+  align-items: center;
+  width: 100%;
+}
+.contacts-container__item{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 65px;
+  font-weight: 800;
+  padding: 80px 0;
+}
+
+.contacts-container p {
+  font-family: Josefin Sans;
+}
+
+.frame {
+  width: 80%;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 40px;
+}
+.frame p {
+  font-size: 26px;
+}
+
+.picture{
+  padding: 0;
+  margin: 0;
+}
+
+.picture img {
+  width: 100%;
+
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+
+.text-orange {
+  color: orange;
+  font-weight: bold;
+}
+
+.middle-table {
+  width: 100%;
+  font-size: 18px;
+  text-align: center;
+}
+.middle-table a {
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.5s ease;
+}
+
+.middle-table a:hover {
+  font-size: 25px;
+  color: orange;
+}
+
+.working-hours {
+  padding-right: 150px;
+
+}
+
+.working-hours td {
+  font-size: 20px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Istok Web;
+  margin: 0;
+  padding: 0;
+  background-color: antiquewhite;
+  height: 140px;
+  width: 100%;
+  background: linear-gradient(to right, white, #fff1cd);
+}
+
+
+.coffiniti-logo {
+  font-style: italic;
+  font-size: 36px;
+  font-family: Josefin Sans;
+  padding-left: 150px;
+}
+
+
+.info {
+  font-size: 100px;
+}
+
+@media (max-width: 1100px) {
+  .coffiniti-logo {
+    font-style: italic;
+    font-size: 30px;
+    font-family: Josefin Sans;
+    padding: 0px;
+  }
+
+  .working-hours {
+    padding: 0;
+  
+  }
+  
+  .working-hours td {
+    font-size: 16px;
+  }
+
+  .middle-table td{
+    font-size: 16px;
+  }
+
+  .frame {
+    width: 80%;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 850px) {
+
+
+  .menu-header{
+    padding: 0;
+  }
+  .menu-header td {
+    padding: 0 5px;
+    font-size: 18px;
+  }
+  .logo-header {
+    font-style: italic;
+    font-size: 20px;
+    font-family: Josefin Sans;
+    padding: 0;
+  }
+
+
+
+  .coffiniti-logo {
+    font-style: italic;
+    font-size: 30px;
+    font-family: Josefin Sans;
+    padding: 0px;
+  }
+
+  .working-hours {
+    padding: 0;
+  
+  }
+  
+  .working-hours td {
+    font-size: 16px;
+  }
+
+  .middle-table td{
+    font-size: 16px;
+  }
+
+  .frame {
+    width: 80%;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 40px;
+  }
+}
+
+
